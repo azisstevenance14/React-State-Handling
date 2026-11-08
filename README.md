@@ -1,16 +1,29 @@
-# React + Vite
+Modul 01: React State & Event Handling (useState)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di project pembelajaran full-stack development pertamaku menggunakan React.js dan Vite! Project ini dibangun dari nol (from scratch) untuk memahami arsitektur dasar, struktur modular, serta manajemen state di dalam ekosistem React.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack & Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Library Utama: React.js (v18+)
 
-## React Compiler
+Build Tool: Vite (performa super cepat untuk development)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Styling Framework: Bootstrap 5 (diintegrasikan secara lokal melalui npm)
 
-## Expanding the ESLint configuration
+Code Editor: Visual Studio Code (VS Code)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏗️ Struktur Arsitektur Proyek
+
+main.jsx (Global Wrapper): Berperan sebagai gerbang utama (entry point) yang menghubungkan React dengan DOM HTML, sekaligus tempat mengimpor file global seperti Bootstrap CSS dan kustomisasi index.css.
+
+App.jsx (Root Component / Project Wrapper): Berperan sebagai komponen utama tempat logika tampilan dan interaksi pengguna diatur.
+
+💡 Konsep yang Dipelajari di Modul Ini
+
+Inisialisasi Project dari Nol: Menggunakan Vite langsung di direktori aktif tanpa sub-folder tambahan.
+
+Integrasi Bootstrap Lokal: Memasang paket Bootstrap via npm dan menghubungkannya langsung ke dalam jalur utama aplikasi.
+
+React useState Hook: Mempelajari cara mendeklarasikan memori komponen (state) dan fungsi pengubahnya (setCount) untuk merender ulang tampilan secara real-time.
+
+Event Handling (onClick): Menangani interaksi tombol pengguna dengan menggunakan fungsi panah (arrow function) di React.
